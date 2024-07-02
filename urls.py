@@ -1,8 +1,9 @@
 class Urls:
 
-    url_samokat = 'https://qa-scooter.praktikum-services.ru'
-    url_create_courier = 'https://qa-scooter.praktikum-services.ru/api/v1/courier'
-    url_login_courier = 'https://qa-scooter.praktikum-services.ru/api/v1/courier/login'
-    url_create_order = 'https://qa-scooter.praktikum-services.ru/api/v1/orders'
-    url_get_orders_list = 'https://qa-scooter.praktikum-services.ru/api/v1/orders'
+    URL_SAMOKAT = 'https://qa-scooter.praktikum-services.ru'
+    URL_CREATE_COURIER = f'{URL_SAMOKAT}/api/v1/courier'
+    URL_LOGIN_COURIER = f'{URL_SAMOKAT}/api/v1/courier/login'
+    URL_CREATE_ORDER = f'{URL_SAMOKAT}/api/v1/orders'
+    URL_GET_ORDERS_LIST = f'{URL_SAMOKAT}/api/v1/orders'
+
 
