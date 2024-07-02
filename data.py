@@ -1,10 +1,11 @@
 
 class TestData:
-    correct_login = "Frimpong"
-    correct_password = "4321"
-    correct_name = "Jordan"
 
-    order_data = {
+    CORRECT_LOGIN = "Frimpong"
+    CORRECT_PASSWORD = "4321"
+    CORRECT_NAME = "Jordan"
+
+    ORDER_DATA = {
                 "firstName": "Naruto",
                 "lastName": "Uchiha",
                 "address": "Konoha, 142 apt.",
@@ -14,4 +15,8 @@ class TestData:
                 "deliveryDate": "2020-06-06",
                 "comment": "Saske, come back to Konoha"
                 }
+
+    MESSAGE_CONFLICT = {"message": "Этот логин уже используется"}
+    MESSAGE_BAD_REQUEST = {"message": "Недостаточно данных для создания учетной записи"}
+    MESSAGE_NOT_FOUND = {"message": "Учетная запись не найдена"}
 
